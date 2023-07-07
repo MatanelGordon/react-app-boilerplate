@@ -1,0 +1,54 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint", "import"],
+	"extends": [
+		"plugin:react-hooks/recommended",
+		"prettier",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"env": {
+		"es6": true,
+		"browser": true
+	},
+	"rules": {
+		"indent": ["warn", "tab"],
+		"no-implicit-coercion": "off",
+		"no-return-assign": "error",
+		"no-bitwise": "error",
+		"one-var": "error",
+		"no-var": "error",
+
+		"no-magic-numbers": "off",
+		"@typescript-eslint/no-magic-numbers": [
+			"error",
+			{ "ignore": [-1, 0, 1, 2, 6, 60, 90, 100, 180, 360, 1000] }
+		],
+
+		"react-hooks/exhaustive-deps": [
+			"warn",
+			{
+				// Add more custom hooks with deps here
+				"additionalHooks": ""
+			}
+		],
+
+		"@typescript-eslint/naming-convention": "error"
+	},
+	"settings": {
+		"node": {
+			"tryExtensions": [".tsx", ".ts", ".d.ts"]
+		},
+		"import/parsers": {
+			"@typescript-eslint/parser": [".ts", ".tsx"]
+		},
+		"import/resolver": {
+			"typescript": {
+				"alwaysTryTypes": true
+			}
+		}
+	},
+	"ignorePatterns": ["*.md", "*.mdx", "*.js", "package.json"]
+}
