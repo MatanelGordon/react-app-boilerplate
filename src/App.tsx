@@ -1,6 +1,5 @@
 import { FC, useState } from 'react';
 import reactLogo from './assets/react.svg';
-import './App.scss';
 
 const App: FC = () => {
 	const [count, setCount] = useState(0);
@@ -20,6 +19,6 @@ const App: FC = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default App;
