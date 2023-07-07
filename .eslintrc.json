@@ -35,7 +35,25 @@
 			}
 		],
 
-		"@typescript-eslint/naming-convention": "error"
+		"@typescript-eslint/naming-convention": [
+			"error",
+			{
+				"selector": "default",
+				"format": ["camelCase"],
+				"leadingUnderscore": "allow",
+				"trailingUnderscore": "allow"
+			},
+			{
+				"selector": "variable",
+				"format": ["camelCase", "UPPER_CASE", "PascalCase"],
+				"leadingUnderscore": "allow",
+				"trailingUnderscore": "allow"
+			},
+			{
+				"selector": "typeLike",
+				"format": ["PascalCase"]
+			}
+		]
 	},
 	"settings": {
 		"node": {
