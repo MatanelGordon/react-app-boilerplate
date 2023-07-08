@@ -6,7 +6,7 @@ Technologies:
 
 - React
 - Typescript
-- SCSS (for Sass look [here](#Switching-to-sass))
+- SCSS
 - postCSS
 - eslint + prettier
 - husky 🐶 + lint-staged
@@ -57,13 +57,11 @@ npm run build
 
 ### Running tests
 
-There are several different ways to run tests: 
+There are several different ways to run tests:
 
 - `npm run test` - will run all tests
 - `npm run test:dev` - will run all tests when a file changes
 - `npm run test:ui` - will open a webview with all the tests and run them on change
-
-
 
 ## Monorepo Integration
 
