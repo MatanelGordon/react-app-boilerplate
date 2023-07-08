@@ -72,4 +72,4 @@ install the boilerplate inside `apps/`
 
 ### Using Nx Package-based
 
-install the boilerplate inside `packages/`
+install the boilerplate inside `apps/`
