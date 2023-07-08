@@ -69,10 +69,7 @@ There are several different ways to run tests:
 
 install the boilerplate inside `apps/`
 
-refer to [Usage](#usage)
 
 ### Using Nx Package-based
 
 install the boilerplate inside `packages/`
-
-refer to [Usage](#usage)
