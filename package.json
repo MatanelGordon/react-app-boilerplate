@@ -2,6 +2,9 @@
 	"name": "react-app-boilerplate",
 	"private": true,
 	"version": "0.0.0",
+	"browserslist": [
+		"defaults"
+	],
 	"scripts": {
 		"check": "tsc --noEmit",
 		"dev": "vite",
@@ -26,12 +29,15 @@
 		"@typescript-eslint/parser": "^5.61.0",
 		"@vitejs/plugin-react-swc": "^3.0.0",
 		"@vitest/ui": "^0.33.0",
+		"autoprefixer": "^10.4.14",
 		"eslint": "^8.44.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-import": "npm:eslint-plugin-i@^2.27.5-4",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^13.2.3",
+		"postcss": "^8.4.25",
+		"postcss-scss": "^4.0.6",
 		"prettier": "^3.0.0",
 		"sass": "^1.63.6",
 		"stylelint": "^15.10.1",
